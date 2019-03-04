@@ -112,9 +112,9 @@ public class MainActivity extends AppCompatActivity {
 
         db.addItem(it);
 
-        Snackbar.make(v, "Item saved", Snackbar.LENGTH_LONG).show();
+        Snackbar.make(v, "Zapisano!", Snackbar.LENGTH_LONG).show();
 
-        //Log.d("Item added ID:", String.valueOf(db.getItemsCount()));
+        //Log.d("ID:", String.valueOf(db.getItemsCount()));
 
         new Handler().postDelayed(new Runnable() {
             @Override
